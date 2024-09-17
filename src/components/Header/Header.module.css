@@ -5,10 +5,9 @@
     border-bottom: 5px solid #A51211;
     position: fixed;
     top: 0;
-    padding: 0.5rem;
-    font-size: 1.5rem;
+    padding-block: 0.5rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -16,17 +15,12 @@
     font-size: 2.5rem;
     font-weight: 700;
     color: #A51211;
-    margin-left: 4rem;
-}
-
-.header nav {
-    margin-right: 4rem;
 }
 
 .header a {
     text-decoration: none;
     color: #FFFFFF;
-    font-size: 1.4rem;
+    font-size: 1.125rem;
     background-color: #A51211;
     padding-inline: 1rem;
     border-radius: 10px;
