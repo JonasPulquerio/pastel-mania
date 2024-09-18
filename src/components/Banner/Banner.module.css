@@ -1,7 +1,9 @@
 .banner {
-    width: 1550px;
+    width: 80%;
     height: 345px;
-    background-image: url('/public/images/banner6.png');
+    background-image: url('/public/images/banner11.png');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin: 85px auto 0px;
 }
