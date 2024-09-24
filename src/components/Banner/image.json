@@ -1,0 +1,37 @@
+[
+    {
+           "titulo": "banner11",
+           "imagem": "/public/images/banner11.png",
+           "id": 0
+     },
+   
+    {
+           "titulo": "banner22",
+       "imagem": "/public/images/banner22.png",
+           "id": "1"
+     },
+   
+    {
+           "titulo": "banner33",
+           "imagem": "/public/images/banner33.png",
+           "id": "2"
+     },
+   
+    {
+           "titulo": "banner44",
+           "imagem": "/public/images/banner44.png",
+           "id": "3"
+     },
+   
+    {
+           "titulo": "banner55",
+           "imagem": "/public/images/banner55.png",
+           "id": "4"
+     },
+   
+    {
+           "titulo": "banner66",
+           "imagem": "/public/images/banner66.png",
+           "id": "5"
+     }
+   ]

@@ -1,9 +1,23 @@
 .banner {
-    width: 80%;
-    height: 345px;
-    background-image: url('/public/images/banner11.png');
+    width: 90%;
+    height: 330px;
+    background-image: url('/public/images/banner22.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 85px auto 0px;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        width: 90%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 390px) {
+    .banner {
+        width: 90%;
+        height: 120px;
+    }
 }
