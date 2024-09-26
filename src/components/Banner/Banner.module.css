@@ -1,11 +1,11 @@
 .banner {
     width: 90%;
     height: 330px;
-    background-image: url('/public/images/banner22.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin: 85px auto 0px;
+    border: 3px solid #fff;
 }
 
 @media (max-width: 768px) {

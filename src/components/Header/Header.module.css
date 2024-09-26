@@ -19,13 +19,14 @@
     background-image: url('logotipo.png');
     margin-top: auto;
     margin-right: -350px;
-    margin-left: -80px;
+    margin-left: -40px;
 }
 
 .header span {
     font-size: 2.5rem;
     font-weight: 700;
     color: #A51211;
+    margin-left: 120px;
 }
 
 .header a {
