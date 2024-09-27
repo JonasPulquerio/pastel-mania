@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "name": "Carne",
+        "preco": "R$5,00",
+        "subName": "Recheio de Carne Moída"
+    },
+    {
+        "id": 1,
+        "name": "Frango",
+        "preco": "R$5,00",
+        "subName": "Recheio de Frango Desfiado"
+    },
+    {
+        "id": 2,
+        "name": "Misto",
+        "preco": "R$5,00",
+        "subName": "Recheio de Queijo Mussarela e Presunto"
+    },
+    {
+        "id": 3,
+        "name": "Queijo Coalho",
+        "preco": "R$5,00",
+        "subName": "Recheio de Queijo Coalho"
+    },
+    {
+        "id": 4,
+        "name": "Queijo Mussarela",
+        "preco": "R$5,00",
+        "subName": "Recheio de Mussarela"
+    }
+]

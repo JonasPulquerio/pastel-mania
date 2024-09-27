@@ -7,7 +7,6 @@ function Header() {
             <span>Pastel Mania</span>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Cardápio</a>
                 <a href="#">Sobre Nós</a>
                 <a href="#">Galeria</a>
                 <a href="#">Contatos</a>

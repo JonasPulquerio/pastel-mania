@@ -1,22 +1,16 @@
 .cardapio {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-around;
-   padding-bottom: 50px;
-}
-.cardapio h1 {
-    border: 1px solid #FFD600;
-    padding: 30px;
-    border-radius: 10px;
-    margin-bottom: -10px;
-    font-size: 2rem;
+    width: 500px;
 }
 
-.cardapio section {
-    border: 1px solid #FFD600;
-    border-radius: 10px;
+.cardapio span {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
-.cardapio (nome) {
-    color: #FFD600;
+.cardapio p {
+    text-align: left;
+    margin-top: -15px;
+    margin-bottom: -5px;
+    font-size: 0.9rem;
 }
