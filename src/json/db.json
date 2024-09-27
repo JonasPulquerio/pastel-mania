@@ -3,30 +3,134 @@
         "id": 0,
         "name": "Carne",
         "preco": "R$5,00",
-        "subName": "Recheio de Carne Moída"
+        "subName": "Recheio de Carne Moída",
+        "category": "PASTÉIS SIMPLES"
     },
     {
         "id": 1,
         "name": "Frango",
         "preco": "R$5,00",
-        "subName": "Recheio de Frango Desfiado"
+        "subName": "Recheio de Frango Desfiado",
+        "category": "PASTÉIS SIMPLES"
     },
     {
         "id": 2,
         "name": "Misto",
         "preco": "R$5,00",
-        "subName": "Recheio de Queijo Mussarela e Presunto"
+        "subName": "Recheio de Queijo Mussarela e Presunto",
+        "category": "PASTÉIS SIMPLES"
     },
     {
         "id": 3,
         "name": "Queijo Coalho",
         "preco": "R$5,00",
-        "subName": "Recheio de Queijo Coalho"
+        "subName": "Recheio de Queijo Coalho",
+        "category": "PASTÉIS SIMPLES"
     },
     {
         "id": 4,
         "name": "Queijo Mussarela",
         "preco": "R$5,00",
-        "subName": "Recheio de Mussarela"
+        "subName": "Recheio de Mussarela",
+        "category": "PASTÉIS SIMPLES"
+    },
+    {
+        "id": 5,
+        "name": "Calabresa",
+        "preco": "R$6,00",
+        "subName": "Recheio de Calabresa",
+        "category": "PASTÉIS ESPECIAIS"
+    },
+    {
+        "id": 6,
+        "name": "Romeu e Julieta",
+        "preco": "R$6,00",
+        "subName": "Recheio de Queijo Coalho com Goiabada",
+        "category": "PASTÉIS ESPECIAIS"
+    },
+    {
+        "id": 7,
+        "name": "Pizza",
+        "preco": "R$6,00",
+        "subName": "Recheio de Queijo Mussarela e Presunto com Orégano e Cebola",
+        "category": "PASTÉIS ESPECIAIS"
+    },
+    {
+        "id": 8,
+        "name": "Camarão",
+        "preco": "R$8,00",
+        "subName": "Recheio de Camarão",
+        "category": "PASTÉIS ESPECIAIS"
+    },
+    {
+        "id": 9,
+        "name": "Charque",
+        "preco": "R$8,00",
+        "subName": "Recheio de Charque Desfiado",
+        "category": "PASTÉIS ESPECIAIS"
+    },
+    {
+        "id": 10,
+        "name": "Nutella",
+        "preco": "R$8,00",
+        "subName": "Recheio de Nutella",
+        "category": "PASTÉIS ESPECIAIS"
+    },
+    {
+        "id": 11,
+        "name": "SIMPLES",
+        "preco": "R$13,00",
+        "subName": "São 2 Pastéis Simples + 1 Suco de Polpa",
+        "category": "COMBOS"
+    },
+    {
+        "id": 12,
+        "name": "ESPECIAL",
+        "preco": "R$25,00",
+        "subName": "São 2 Pastéis Especiais + 1 Bebida, exceto refrigerante 1Lt",
+        "category": "COMBOS"
+    },
+    {
+        "id": 13,
+        "name": "JUNTO E MISTURADO",
+        "preco": "R$45,00",
+        "subName": "São 6 Pastéis de qualquer Categoria + 1 Refrigerante 1Lt Guaraná Antarctica",
+        "category": "COMBOS"
+    },
+    {
+        "id": 14,
+        "name": "Água Mineral 500ml",
+        "preco": "R$2,50",
+        "category": "PBEBIDAS"
+    },
+    {
+        "id": 15,
+        "name": "Suco de Polpa 300ml",
+        "preco": "R$4,00",
+        "category": "PBEBIDAS"
+    },
+    {
+        "id": 16,
+        "name": "Suco de Laranja 300ml",
+        "preco": "R$5,00",
+        "category": "PBEBIDAS"
+    },
+    {
+        "id": 17,
+        "name": "Caldo de Cana 300ml",
+        "preco": "R$5,00",
+        "category": "PBEBIDAS"
+    },
+    {
+        "id": 18,
+        "name": "Refrigerante Lata 350ml",
+        "preco": "R$6,00",
+        "category": "PBEBIDAS"
+    },
+    {
+        "id": 19,
+        "name": "Refrigerante 1Lt",
+        "preco": "R$8,00",
+        "category": "PBEBIDAS"
     }
 ]

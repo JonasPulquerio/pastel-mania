@@ -13,20 +13,13 @@ code {
     monospace;
 }
 
-h1 {
-  font-size: 2.5rem;
-}
-
-h4 {
-  margin-top: -30px;
-}
-
 .cardapio {
   width: 500px;
   border: 1px solid #FFD600;
   border-radius: 10px;
   padding: 0 10px 40px;
   margin-bottom: 30px;
+  margin: auto;
 }
 
 .cardapio h1 {
