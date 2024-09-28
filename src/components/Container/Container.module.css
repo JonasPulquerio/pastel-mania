@@ -1,5 +1,12 @@
 .container {
-    width: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     color: #fff;
     text-align: center;
+    gap: 15px;
+    padding-bottom: 30px;
+    margin: auto;
 }

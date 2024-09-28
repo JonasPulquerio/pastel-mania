@@ -4,8 +4,10 @@ import img from "./logotipo.png";
 function Header() {
     return (
         <header className={styles.header}>
-            <img src={img}></img>
-            <span>Pastel Mania</span>
+            <div>
+                <img src={img}></img>
+                <span>Pastel Mania</span>
+            </div>
             <nav>
                 <a href="#">Início</a>
                 <a href="#">Sobre Nós</a>

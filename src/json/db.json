@@ -101,36 +101,36 @@
         "id": 14,
         "name": "Água Mineral 500ml",
         "preco": "R$2,50",
-        "category": "PBEBIDAS"
+        "category": "BEBIDAS"
     },
     {
         "id": 15,
         "name": "Suco de Polpa 300ml",
         "preco": "R$4,00",
-        "category": "PBEBIDAS"
+        "category": "BEBIDAS"
     },
     {
         "id": 16,
         "name": "Suco de Laranja 300ml",
         "preco": "R$5,00",
-        "category": "PBEBIDAS"
+        "category": "BEBIDAS"
     },
     {
         "id": 17,
         "name": "Caldo de Cana 300ml",
         "preco": "R$5,00",
-        "category": "PBEBIDAS"
+        "category": "BEBIDAS"
     },
     {
         "id": 18,
         "name": "Refrigerante Lata 350ml",
         "preco": "R$6,00",
-        "category": "PBEBIDAS"
+        "category": "BEBIDAS"
     },
     {
         "id": 19,
         "name": "Refrigerante 1Lt",
         "preco": "R$8,00",
-        "category": "PBEBIDAS"
+        "category": "BEBIDAS"
     }
 ]

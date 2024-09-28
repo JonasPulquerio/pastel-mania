@@ -3,11 +3,10 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    position: relative;
     background-color: #FFD600;
-    border-top: 5px solid #A51211;
-    padding-block: 0.5rem;
+    padding-block: 0.5rem;  
 }
 
 .footer h2 {

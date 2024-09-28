@@ -12,18 +12,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.cardapio {
-  width: 500px;
-  border: 1px solid #FFD600;
-  border-radius: 10px;
-  padding: 0 10px 40px;
-  margin-bottom: 30px;
-  margin: auto;
-}
-
-.cardapio h1 {
-  display: flex;
-  justify-content: center;
-  font-size: 2.5rem;
-}
