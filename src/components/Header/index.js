@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 import img from "./logotipo.png";
 
@@ -5,14 +6,15 @@ function Header() {
     return (
         <header className={styles.header}>
             <div>
-                <img src={img}></img>
-                <span>Pastel Mania</span>
+                <Link to="/">
+                    <img src={img} alt="Logotipo"></img>
+                    <span>Pastel Mania</span>
+                </Link>
             </div>
             <nav>
-                <a href="#">Início</a>
-                <a href="#">Sobre Nós</a>
-                <a href="#">Galeria</a>
-                <a href="#">Contatos</a>
+                <Link to="/">Início</Link>
+                <Link to="/sobreNos">Sobre Nós</Link>
+                <Link to="/galeria">Galeria</Link>
             </nav>
         </header>
     );

@@ -1,4 +1,16 @@
+import pasteis from "../../json/db.json";
 import styles from "./Category.module.css";
+
+export const categories = [
+    "PASTÉIS SIMPLES",
+    "PASTÉIS ESPECIAIS",
+    "COMBOS",
+    "BEBIDAS"
+  ]
+  
+  export function filterCategory(dados) {
+    return pasteis.filter(pastel => pastel.category === categories[dados])
+  }
 
 function Category({ category, children }) {
     return (
