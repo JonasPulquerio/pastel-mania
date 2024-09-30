@@ -1,4 +1,3 @@
-/* eslint-disable import/first */
 import Banner from "../../components/Banner";
 import Cardapio from "../../components/Cardapio";
 import Container from "../../components/Container";
@@ -17,8 +16,8 @@ function Home() {
 
         {
           categories.map((category, index) =>
-            <Category category={category}>
-              {filterCategory(index).map((pastel) => <Cardapio dados={pastel} key={pastel} />)}
+            <Category key={index} category={category}>
+              {filterCategory(index).map((pastel, indexCategoria) => <Cardapio key={indexCategoria} dados={pastel}/>)}
             </Category>)
         }
 

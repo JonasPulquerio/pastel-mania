@@ -36,7 +36,7 @@
 
 .header nav a:hover {
     padding: 5px 30px;
-    transition: .4s;
+    transition: .8s;
   }
 
 @media (max-width: 768px) {
