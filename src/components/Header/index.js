@@ -7,7 +7,7 @@ function Header() {
         <header className={styles.header}>
             <div>
                 <Link to="/">
-                    <img src={img} alt="Logotipo"></img>
+                    <img src={img} alt="Logotipo" />
                     <span>Pastel Mania</span>
                 </Link>
             </div>

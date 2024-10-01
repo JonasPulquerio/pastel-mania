@@ -1,5 +1,8 @@
 .text {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #FFF;
 }
 
@@ -8,11 +11,21 @@
     margin: 30px 0px 0px;
 }
 
-.text h4 {
-    margin-top: 0px;
+.text p {
+    width: 1200px;
+    margin-block: 30px;
 }
 
-.text p {
-    width: 80%;
-    margin: 0px auto 50px;
+@media (max-width: 768px) {
+    .text p {
+        width: 650px;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 390px) {
+    .text p {
+        width: 350px;
+        text-align: justify;
+    }
 }
