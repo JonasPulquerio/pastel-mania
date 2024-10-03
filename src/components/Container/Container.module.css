@@ -1,13 +1,10 @@
 .container {
-    width: 60%;
+    width: 100%;
     height: 100%;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    color: #fff;
     text-align: center;
-    gap: 15px;
     padding-bottom: 30px;
-    margin: auto;
 }
