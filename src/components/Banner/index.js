@@ -1,13 +1,14 @@
 import styles from "./Banner.module.css";
-//import img from "./image.json";
+// import imagens from "./image.json";
+import images from "./images/banner33.png";
 
-function Banner({ image }) {
+
+function Banner() {
 
     return (
-        <div
-            className={styles.banner}
-            style={{ backgroundImage: `url('/images/banner${image}.png')` }}
-        ></div>
+        <div className={styles.banner}>
+           <img src={images}/>
+        </div>
     );
 }
 
