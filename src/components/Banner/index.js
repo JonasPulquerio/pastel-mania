@@ -1,13 +1,13 @@
+import Carousel from "../Carousel";
 import styles from "./Banner.module.css";
-// import imagens from "./image.json";
-import images from "./images/banner33.png";
-
+import imagens from "./image.json";
 
 function Banner() {
-
     return (
         <div className={styles.banner}>
-           <img src={images}/>
+            <Carousel>
+                {imagens.map((img, indexKey) => (<img className={styles.imgBanner} src={img.imagem} alt="Pasteis Mais Pedidos" key={indexKey} />))}
+            </Carousel>
         </div>
     );
 }

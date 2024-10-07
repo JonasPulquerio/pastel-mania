@@ -11,7 +11,7 @@ function Home() {
   return (
     <>
       <Header />
-      <Banner image="22" />
+      <Banner />
       <Text />
       <Container>
         <section className={styles.home}>
