@@ -13,13 +13,13 @@
 
 .text p {
     width: 1200px;
-    margin-block: 30px;
+    margin-block: 15px;
     text-align: center;
 }
 
 @media (max-width: 768px) {
     .text p {
-        width: 650px;
+        width: 500px;
         text-align: justify;
     }
 }

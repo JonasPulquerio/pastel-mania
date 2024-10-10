@@ -1,5 +1,5 @@
 .container {
-    width: 100%;
+    width: 80%;
     min-height: 100vh;
     color: #fff;
     display: flex;
@@ -8,4 +8,11 @@
     text-align: center;
     padding-bottom: 30px;
     overflow: hidden;
+    margin: 0 auto;
+}
+
+@media (max-width: 1400px) {
+    .container {
+        width: 100%;
+    }
 }

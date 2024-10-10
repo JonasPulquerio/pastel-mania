@@ -1,0 +1,83 @@
+.sobrenos {
+    width: 70%;
+    height: 100%;
+    padding-block: 50px;
+    background-color: #00000080;
+    padding-inline: 15px;
+    border-radius: 10px;
+    margin: 100px auto 0px;
+}
+
+.texto {
+    display: flex;
+    gap: 20px;
+    padding-block: 30px;
+
+}
+
+.sobrenos img {
+    width: 50%;
+}
+
+.Text {
+    color: orange;
+    text-align: justify;
+}
+
+hr {
+    margin-block: 30px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contato {
+    width: 100%;
+    display: flex;
+    text-align: left;
+    font-size: 1.2rem;
+    padding-block: 10px;
+}
+
+.hrContato {
+    height: 100px;
+    margin: 5px auto 0px;
+}
+
+@media (max-width: 768px) {
+
+    .texto {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobrenos img {
+        width: 100%;
+    }
+
+    .contato {
+        text-align: left;
+        font-size: 1rem;
+        gap: 20px;
+    }
+
+    .hrContato {
+        height: 120px;
+    }
+}
+
+@media (max-width: 390px) {
+    .contato {
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    .hrContato {
+        display: none;
+    }
+}

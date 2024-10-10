@@ -12,3 +12,25 @@
     text-align: left;
     font-size: 0.9rem;
 }
+
+@media (max-width: 760px) {
+    .cardapio span {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: flex-start;
+    }
+
+    .cardapio p {
+        width: 270px;
+    }
+}
+
+@media (max-width: 390px) {
+    .cardapio span {
+        min-width: 250px;
+        max-width: 300px;
+    }
+
+}
