@@ -1,5 +1,5 @@
 .cardapio {
-    width: 500px;
+    width: 630px;
 }
 
 .cardapio span {
@@ -13,9 +13,12 @@
     font-size: 0.9rem;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
+    .cardapio {
+        width: 320px;
+    }
+
     .cardapio span {
-        width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: right;
@@ -29,8 +32,7 @@
 
 @media (max-width: 390px) {
     .cardapio span {
-        min-width: 250px;
-        max-width: 300px;
+        width: 300px;
     }
 
 }
