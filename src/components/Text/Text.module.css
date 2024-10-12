@@ -19,14 +19,14 @@
 
 @media (max-width: 768px) {
     .text p {
-        width: 500px;
+        width: 100%;
         text-align: justify;
+        width: 500px;
     }
 }
 
 @media (max-width: 390px) {
     .text p {
         width: 350px;
-        text-align: justify;
     }
 }
