@@ -32,6 +32,7 @@ function Header() {
                 <span className={styles.linha}></span>
                 <span className={styles.linha}></span>
             </div>
+            teste
         </header>
     );
 }
