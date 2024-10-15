@@ -1,11 +1,7 @@
 .container {
     width: 100%;
-    min-height: 100vh;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 30px;
-    overflow: hidden;
-    margin: 0 auto;
+    height: 100%;
+    background-color: #A51211;
+    padding: 30px;
+    color: #FFF;
 }

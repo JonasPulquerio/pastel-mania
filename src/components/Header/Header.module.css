@@ -1,42 +1,48 @@
 .header {
     width: 100%;
-    height: 60px;
+    height: 70px;
+    display: flex;
+    align-items: center;
     background-color: #FFD600;
     position: fixed;
     top: 0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 9999;
+    z-index: 99999;
+    padding-inline: 50px;
 }
 
 .logotipo {
-    width: 65px;
-    height: 90%;
-    position: absolute;
-    left: calc(17% - (100px));
-    border-radius: 100%;
+    width: 70px;
+    height: 100%;
+    margin-top: 3px;
 }
 
-.header div a {
+.titulo {
     font-size: 2.5rem;
+    text-decoration: none;
     font-weight: 700;
     color: #A51211;
-    text-decoration: none;
+    margin-left: 2rem;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    right: 50px;
+
 }
 
 .navMenu a {
-    width: 200px;
-    text-decoration: none;
+    display: flex;
     color: #FFFFFF;
-    font-size: 1.125rem;
     background-color: #A51211;
-    padding-inline: 1rem;
-    border-radius: 10px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding-inline: 2rem;
+    border-radius: 7px;
     box-shadow: 4px 6px rgba(0, 0, 0, 0.5);
-    font-size: 18px;
-    padding-block: 8px;
-    margin-left: 10px;
+    padding-block: 5px;
 }
 
 .menuButton {
@@ -44,35 +50,28 @@
 }
 
 .navMenu a:hover {
-    padding: 13px 30px;
+    padding: 8px 40px;
     transition: .8s;
-    justify-content: center;
-    align-items: center;
 }
 
 @media (max-width: 768px) {
-    .header {
-        width: 100%;
-        justify-content: space-around;
-    }
-
     .logotipo {
         display: none;
-    }
-
-    .header span {
-        font-size: 2rem;
-        align-items: center;
     }
     
     .navMenu {
         display: none;
     }
 
+    .navMenu a {
+        width: 150px;
+
+    }
+
     .show {
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 40%;
         height: 130px;
         position: absolute;
         top: 60px;
@@ -80,7 +79,7 @@
         background-color: #FFD600;
         border-radius: 0 0 0 10px ;
         gap: 20px;
-        padding: 10px 20px;
+        padding: 25px 20px;
     }
     
     .menuButton {
@@ -102,27 +101,29 @@
         background-color: #A51211;
         margin-right: 30px;
     }
-    
 }
 
 @media (max-width: 390px) {
-    .header span {
-        font-size: 1.5rem;
+    .titulo {
+        display: none;
+    }
+
+    .navMenu a {
+        width: 230px;
         align-items: center;
     }
 
     .show {
-        align-items: center;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        justify-content: center;
+        align-items: center;
         height: 130px;
-        position: absolute;
-        top: 60px;
-        right: 0px;
         background-color: #FFD600;
         border-radius: 0 0 0 0 ;
         gap: 20px;
-        padding-top: 10px;
+        padding-top: 25px;
+        margin-top: 10px;
     }
 }

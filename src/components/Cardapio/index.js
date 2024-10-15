@@ -3,7 +3,7 @@ import styles from "./Cardapio.module.css";
 function Cardapio({ dados: {name, preco, subName} }) {
     return (
         <section className={styles.cardapio}>
-            <span>
+            <span className={styles.nomePreco}>
                 <h2>{name}</h2>
                 <h2>{preco}</h2>
             </span>

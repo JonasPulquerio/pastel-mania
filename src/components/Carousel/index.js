@@ -15,7 +15,7 @@ function Carousel({ children }) {
     };
 
     return (
-        <div className="carousel">
+        <div class="carousel">
             <Slider {...settings}>
                 { children }
             </Slider>

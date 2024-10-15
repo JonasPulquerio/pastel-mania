@@ -11,16 +11,16 @@ function Home() {
   return (
     <>
       <Header />
-      <Banner />
-      <Text />
       <Container>
+        <Banner />
+        <Text />
         <section className={styles.home}>
-        {
-          categories.map((category, index) =>
-            <Category key={index} category={category}>
-              {filterCategory(index).map((pastel, indexCategoria) => <Cardapio key={indexCategoria} dados={pastel}/>)}
-            </Category>)
-        }
+          {
+            categories.map((category, index) =>
+              <Category key={index} category={category}>
+                {filterCategory(index).map((pastel, indexCategoria) => <Cardapio key={indexCategoria} dados={pastel} />)}
+              </Category>)
+          }
         </section>
       </Container>
       <Footer />

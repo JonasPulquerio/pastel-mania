@@ -1,38 +1,10 @@
 .cardapio {
-    width: 630px;
+    width: 100%;
+    padding-inline: 20px;
+    padding-block: 10px;
 }
 
-.cardapio span {
+.nomePreco {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
-}
-
-.cardapio p {
-    text-align: left;
-    font-size: 0.9rem;
-}
-
-@media (max-width: 768px) {
-    .cardapio {
-        width: 320px;
-    }
-
-    .cardapio span {
-        display: flex;
-        flex-direction: column;
-        justify-content: right;
-        align-items: flex-start;
-    }
-
-    .cardapio p {
-        width: 270px;
-    }
-}
-
-@media (max-width: 390px) {
-    .cardapio span {
-        width: 300px;
-    }
-
 }

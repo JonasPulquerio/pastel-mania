@@ -9,18 +9,18 @@ function TextoSobreNos() {
         <>
             <section className={styles.sobrenos}>
                 <h1>Sobre Nossa Pastelaria</h1>
-                <div className={styles.texto}>
+                <div className={styles.introducao}>
                     <section>
-                        <p className={styles.Text}>
+                        <p className={styles.textoP}>
                             A lanchonete <strong>Pastel Mania</strong> foi criada em 10 de dezembro de 2020 por Jonas, um jovem apaixonado por lanches. Desde o início, seu objetivo foi oferecer aos clientes não apenas lanches de qualidade, mas também sabores inesquecíveis que deixassem uma marca.
                         </p>
-                        <p className={styles.Text}>
+                        <p className={styles.textoP}>
                             Com isso em mente, Jonas decidiu compartilhar as delícias de seus lanches e doces com a comunidade, permitindo que todos desfrutassem de uma refeição especial sem precisar ir longe de suas casas ou esperar pela entrega.
                         </p>
                     </section>
-                    <img src={imagem} alt="Pastel" />
+                    <img className={styles.imagemPastel} src={imagem} alt="Pastel" />
                 </div>
-                <p className={styles.Text}>
+                <p className={styles.textoP}>
                     Localizada no bairro Coroa do Meio, na Rua Waldemar Silva Carvalho, número 1010, a lanchonete se destaca pelo atendimento excepcional e pela atenção dedicada a cada cliente, tornando o espaço especial e acolhedor para todos os públicos.
                     A inspiração para o <strong>Pastel Mania</strong> surgiu da busca por lanches com sabores únicos e preços acessíveis na região. Jonas aprendeu suas receitas assistindo a videoaulas na internet e pesquisando conteúdos que valorizassem ainda mais os sabores dos seus produtos.
                     O menu reflete as influências culturais da área, oferecendo desde os tradicionais pastéis, como o famoso Pastel de Carne, recheado com carne moída suculenta, até opções doces como Pudim. Jonas tem um compromisso com a valorização de ingredientes locais e sustentáveis, sempre buscando os produtos mais frescos nas feiras e comércios da região.
@@ -41,7 +41,7 @@ function TextoSobreNos() {
                             <p><GrInstagram /> Instagram: @pastel_mania.se</p>
                         </div>
                     </div>
-                    <hr className={styles.hrContato} />
+                    <hr />
                     <div>
                         <p>Endereço: Rua Waldemar Silva Carvalho </p>
                         <p>Nº: 1010</p>
